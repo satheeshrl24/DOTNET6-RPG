@@ -5,8 +5,9 @@ namespace DOTNER_RPG.Models
     [JsonConverter(typeof(JsonStringEnumConverter))]
     public enum RpgClass
     {
-        knight = 1,
-        mage = 2,
-        cleric = 3
+        Knight = 1,
+        Mage = 2,
+        Cleric = 3,
+    
     }
 }
